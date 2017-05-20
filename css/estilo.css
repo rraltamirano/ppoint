@@ -1,0 +1,26 @@
+#areatrabajo{
+	text-align: center;
+}
+.diapositivas{
+	border: 1px solid;
+	border-color: black;
+	margin: 10px;
+}
+.titulod{
+	width: 700px;
+	height: 50px;
+	font-size: 30px;
+	text-align: center;
+	border: 0px;
+}
+.titulod:focus{
+	border: 1px solid;
+	border-color: gray;
+}
+.cuerpod{
+	border: 0px;
+}
+.cuerpod:focus{
+	border: 1px solid;
+	border-color: gray;
+}

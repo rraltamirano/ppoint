@@ -1,0 +1,28 @@
+<html lang="es">
+<head>
+	<title>powint</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script src="js/cod.js"></script>
+</head>
+<body id="cuerpo" class="bod" >
+	<head>powint
+		<button onclick="nueva()">añadir</button>
+		<fieldset id="edicion"disabled>
+		<legend>editar elemento</legend>
+			<label>tamaño:</label>
+			<input id="tletra"type="number" min="1" onkeyup="cambiartamanio()" onclick="cambiartamanio()">
+			<label>color:</label>
+			<input  id="ccolor" type="color">
+			<select  id="opciontf">
+				<option value="texto">texto</option>
+				<option value="fondo">fondo</option>
+			</select>
+			<button  onclick="cambiaColor()">ok</button>
+		</fieldset>
+		
+	</head>
+	<div id="areatrabajo">
+	</div>
+</body>
+</html>
