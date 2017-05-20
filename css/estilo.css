@@ -1,6 +1,9 @@
 #areatrabajo{
 	text-align: center;
 }
+h1{
+	border-top: 1px solid;
+}
 .diapositivas{
 	border: 1px solid;
 	border-color: black;
