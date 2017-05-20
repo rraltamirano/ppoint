@@ -3,7 +3,12 @@
 }
 h1{
 	border-top: 1px solid;
+	transition:0.3s;
 }
+h1:hover{
+	transform: scale(1.2);
+}
+
 .diapositivas{
 	border: 1px solid;
 	border-color: black;
