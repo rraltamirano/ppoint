@@ -4,9 +4,12 @@
 h1{
 	border-top: 1px solid;
 	transition:0.3s;
+	text-transform: uppercase;
+	letter-spacing: 5px;
 }
 h1:hover{
 	transform: scale(1.2);
+	text-transform: lowercase;
 }
 
 .diapositivas{
