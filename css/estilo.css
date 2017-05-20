@@ -3,6 +3,7 @@
 }
 h1{
 	border-top: 1px solid;
+	border-bottom: 3px solid;
 	transition:0.3s;
 	text-transform: uppercase;
 	letter-spacing: 5px;
